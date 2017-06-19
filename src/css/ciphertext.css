@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #2c2c2c;
+}
+
+header h1 {
+  margin: 0;
+  padding: 25px;
+  background: #3f3f3f;
+  color: #dcdccc;
+}
+
+header h2 {
+  margin: 0;
+  padding: 15px 25px;
+  background: #dcdccc;
+  color: #2c2c2c;
+  font-size: 0.9em;
+}
+
+div.flex-vertical {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.flex-vertical div.full {
+  flex-grow: 1;
+}
+
+div.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.flex-horizontal textarea {
+  flex-grow: 0.5;
+}
+
+input, textarea {
+  margin: 50px;
+  padding: 15px;
+  background: #dcdccc;
+}
+
+input[type=text] {
+  border: 3px solid #705050;
+  background: #dcdccc;
+  color: #2c2c2c;
+}
+
+input[type=submit] {
+  border: 3px solid #709080;
+  background: #709080;
+  font-weight: bold;
+}
+
+textarea {
+  border: 1px solid #dcdccc;
+  background: #3f3f3f;
+  color: #dcdccc;
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+textarea#input {
+  margin: 0px 15px;
+  margin-left: 50px;
+}
+
+textarea#output {
+  margin: 0px 15px;
+  margin-right: 50px;
+}
