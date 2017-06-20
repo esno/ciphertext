@@ -1,6 +1,9 @@
 # ciphertext
 
 share your secret token with other people and crypt the stuff you want to say.
+a demo is available at https://esno.github.io/ciphertext
+
+plaintext will be encrypted by aes-gcm
 
 ## why
 
