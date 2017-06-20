@@ -48,7 +48,7 @@ input, textarea {
   background: #dcdccc;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
   border: 3px solid #705050;
   background: #dcdccc;
   color: #2c2c2c;
