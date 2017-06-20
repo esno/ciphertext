@@ -1,9 +1,9 @@
 # ciphertext
 
 share your secret token with other people and crypt the stuff you want to say.
-a demo is available at https://esno.github.io/ciphertext
+plaintext will be encrypted with aes-gcm algorithm.
 
-plaintext will be encrypted by aes-gcm
+> https://esno.github.io/ciphertext
 
 ## why
 
@@ -21,3 +21,10 @@ Others missing mailcrypto completely.
 * insert your plaintext/ciphertext in the left box.
 * press crypt / decrypt.
 * send ciphertext via mail.
+
+## compatibility
+
+the webcryptoapi is implemented in:
+
+- firefox >= 39
+- chromium >= 44
